@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 130px;
+  background-color: #8ef2e6;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar-item {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #9577cf;
+  cursor: pointer;
+}
+
+#Q1 {
+  background-color: #8ef2e6;
+  border-bottom: 1px solid #9577cf;
+  padding: 20px;
+  text-align: center;
+}
+
+#pagina2 {
+  background-color: #564d8b;
+}
+
+.sidebar-item:hover {
+  background-color: #564d8b;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+#formCadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #8ef2e6;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 13px;
+  align-self: flex-start;
+  margin-right: 115px;
+}
+
+input[type="submit"]:hover {
+  background-color: #564d8b;
+}
+
+.icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(icones/imagem_2023-05-17_175157942-removebg-preview.png);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.icon2 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(icones/imagem_2023-05-18_214428470-removebg-preview.png);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.icon3 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(icones/abdc59c933a70920864a605b2f4bff1c.png);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.logo {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(icones/imagem_2023-05-18_215821122-removebg-preview.png);
+  background-size: cover;
+  vertical-align: middle;
+}
